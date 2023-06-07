@@ -1,0 +1,97 @@
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .title{
+        flex:1;
+        text-align: center;
+    }
+    .fa-brands{
+        margin-left: 1em;
+        font-size: 1em;
+    }
+    .container p{
+        text-align: center;
+        font-size: 1.2em;
+        font-variant: small-caps;
+    }
+    .form-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    #form{
+        display: flex;
+        flex-direction: column  ;
+        align-items: center;
+    }
+    #searchInput{
+        font-size: 19px;
+        width: 75%;
+        border: 5px;
+        border-radius: 5px;
+        text-align: center;
+        border-style: groove;
+    }
+    #searchInput:focus{
+        border: 5px;
+        width: 75%;
+        border-radius: 5px;
+        color: black;
+        font-size: 19px;
+        border-style: groove;
+        background-color:darkgray;
+    }
+
+
+    .button-wrapper{
+        margin: 10px 0px;
+    }
+    #searchButton{
+        
+        width: 150px;
+        border-radius: 5px;
+        text-align: center;
+        letter-spacing: 1px;
+        padding: 5px;
+        background-color: #464646;
+        color: white;
+        border: none;
+        box-shadow: 1px 3px 5px lightgrey;
+        
+    }
+
+    #clearButton{
+        letter-spacing: 1px;
+        width: 240px;   
+        border-radius: 5px;
+        padding: 5px;
+        background-color: #c10c0c;
+        color: white;
+        box-shadow: 1px 3px 5px lightgrey;
+    }
+
+    .imagelist-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .imagelist-wrapper .card{
+        margin: 20px;
+        border: 1px solid lightgray;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 1px 2px 2px lightsalmon;
+    }
+    a{
+        position: absolute;
+        font-weight: bold;
+        text-decoration: underline;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-stretch: ultra-expanded;
+        
+        color: darkblue;
+        margin-top: -20px;
+        }
